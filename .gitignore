@@ -1,0 +1,44 @@
+# Raw inputs and derived patient records
+data/
+inputs/
+preprocessing/
+outputs/
+results/
+artifacts/
+checkpoints/
+logs/
+seed[0-9]*/
+split_seed[0-9]*/
+*.csv
+*.tsv
+*.txt.gz
+*.csv.gz
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+
+# Local operating-system and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Generated figures and logs
+*.png
+*.pdf
+*.log
+slurm-*.out
+slurm-*.err

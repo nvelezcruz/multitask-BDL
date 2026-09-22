@@ -1,0 +1,11 @@
+# Dependency names only. The original Sol environment versions were not saved
+# with the source code and should be recorded before a reproducible release.
+numpy
+pandas
+scipy
+scikit-learn
+lifelines
+torch
+gpytorch
+matplotlib
+openpyxl
