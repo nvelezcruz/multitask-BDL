@@ -17,3 +17,8 @@ sharing.
 relative to the manuscript workspace. It intentionally fails if a named source
 is missing, rather than searching broadly and accidentally adding a
 patient-level artifact. `CHECKSUMS.sha256` hashes the released files.
+
+An archived August 2026 recovery rerun was reviewed separately. It contains
+partial DGP split summaries and an alternate ten-seed baseline archive, but is
+not part of this release because it has not been reconciled to the submitted
+internal-performance tables. See `NOT_FOUND_OR_NOT_RELEASED.md`.

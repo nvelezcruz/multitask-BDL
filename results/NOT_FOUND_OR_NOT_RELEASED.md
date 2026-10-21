@@ -7,7 +7,7 @@ permission decision.
 
 | Manuscript result | What is missing | Why it is not substituted here |
 | --- | --- | --- |
-| Main Tables 2–7 and Supplementary Tables 1–21 | A complete internal, per-split DGP-and-baseline metric table with status/evaluable-split fields. | The formatted values are present in the manuscript/supplement, but a release-grade aggregate/per-split input table (`master_*` collector output) was not found. Do not reconstruct it from display-rounded PDF values. |
+| Main Tables 2–7 and Supplementary Tables 1–21 | A complete internal, per-split DGP-and-baseline metric table with status/evaluable-split fields that reconciles to the submitted ten-split tables. | An August 2026 recovery backup contains only 6–7 DGP splits per configuration, while a separate baseline archive has ten splits but does not yet reconcile numerically to the submitted tables. The combined collector directories are empty. Do not merge those run streams or reconstruct results from display-rounded PDF values. |
 | Supplementary Figures 13–17 at 24 months | Aggregate 24-month KM curve/statistics tables for the PathNoUDP model. | Only the rendered figures and 18-month aggregate KM source data were found. Do not publish the source patient-assignment files. |
 | Figure 3 | The exact posterior-draw data for the displayed example patients, with a share-safe panel-ID mapping. | The available artifacts are patient-level. An anonymized, panel-only export can be added later if approved. |
 | Complete calibration provenance | Per-seed calibration-intercept table and bin edges. | Calibration-bin summaries are included. The exact intercept export was not located as a compact non-patient-level table. |
@@ -18,3 +18,14 @@ The manuscript’s pathway and gene-state provenance should be documented and
 permission checked before publishing those input matrices or related trained
 artifacts. The aggregate figures/tables included in this release remain useful
 source data, but this manifest makes the remaining gaps visible.
+
+## Recovery material reviewed but not released
+
+After this package was assembled, we reviewed an archived August 2026 rerun.
+It includes aggregate DGP metric summaries for a partial set of seeds
+(PathClin: 42--47; PathNoUDP-MutTMB: 42--48; PathUDP-MutTMB: 42--47) and a
+separate ten-seed baseline archive. These files are aggregate-only after local
+path removal, but they are not released here because they are not the complete,
+reconciled source for the submitted ten-split internal-performance tables.
+They should be released only after their run provenance and numerical agreement
+with the manuscript have been confirmed.

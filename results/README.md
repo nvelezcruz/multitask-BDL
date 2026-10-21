@@ -30,6 +30,12 @@ source-data components that were either not present in the supplied workspace
 or should not be published as-is. It prevents this partial results package
 from being mistaken for a release of raw data or patient-level results.
 
+An archived August 2026 recovery rerun was reviewed after this package was
+assembled. It has partial DGP split coverage and a separate alternate
+ten-seed baseline archive, but neither is included here because the complete
+collector output and reconciliation to the submitted internal-performance
+tables are still missing. See `NOT_FOUND_OR_NOT_RELEASED.md`.
+
 `DATA_DICTIONARY.md` defines the result-table fields and
 `METHOD_AND_VERSION_NOTES.md` records the support rules used for each
 Wasserstein/treatment analysis. `CHECKSUMS.sha256` permits file-integrity
