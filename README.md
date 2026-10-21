@@ -2,6 +2,13 @@
 
 This folder contains the code for the PathClin, PathNoUDP, and PathUDP input configurations and the corresponding baseline models. It contains no TCGA data, fitted models, predictions, or manuscript results.
 
+## Manuscript result data
+
+The reviewed, non-patient-level tables that support the manuscript are in
+[`results/`](results/). That directory has its own manifest, data dictionary,
+provenance notes, and an explicit list of source-data artifacts that are not
+available or are intentionally not released.
+
 | Configuration | Model inputs |
 | --- | --- |
 | PathClin | Pathway activity, clinical variables, treatment |

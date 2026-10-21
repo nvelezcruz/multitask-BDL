@@ -1,0 +1,13 @@
+manuscript_component,status,release_files,note
+Main Table 1,available,data/cohort/cohort_summary.csv; data/cohort/modality_overlap.csv,"Aggregate, non-patient-level cohort characteristics."
+Main Figure 1,not-applicable,,Workflow schematic; no numeric source-data table identified.
+Main Tables 2-7; Supplementary Tables 1-21,missing,,Complete internal per-split DGP-and-baseline collector outputs were not found; see NOT_FOUND_OR_NOT_RELEASED.md.
+Main Table 8,available,data/external_validation/,"Aggregate METABRIC performance data, including all three input configurations."
+Main Figure 2a-c; Supplementary Table 22,available,data/early_risk_and_km/early_failure_lift_by_seed.csv; data/early_risk_and_km/early_failure_lift_mean_sd_across_seeds.csv,Seed-level and across-seed early-event enrichment data.
+Main Figure 2d-f; Supplementary Figures 13-17,partial,data/early_risk_and_km/km_H18_curves_by_seed.csv; data/early_risk_and_km/km_H18_curves_mean_sd_across_seeds.csv,18-month aggregate KM data are included; 24-month aggregate source tables were not found.
+Supplementary Figures 1-12,partial,data/calibration/,Per-seed and across-seed calibration-bin summaries; calibration-intercept and bin-edge exports were not located.
+Main Figure 3,not-released,,Exact supporting artifact is patient-level posterior data; no anonymized panel-only export was found.
+Main Figure 4; Supplementary Figures 18-20; Supplementary Tables 23-26,available,data/wasserstein/,All aggregate WFP feature scores plus selected figure/table rows.
+Supplementary Figures 21-23,available-fixed-support-version,data/treatment/fixed_support_*,Fixed-support treatment-profile and feature-stratified treatment-pair WFP source tables. See METHOD_AND_VERSION_NOTES.md.
+Main Figure 5; Supplementary Table 27,available,data/treatment/,Aggregate wild-type/mutated risk contrasts; exhaustive consensus is gzip-compressed.
+Supplementary Table 28,unresolved,,Available source versions disagree on C-index values; the final source table needs reconciliation before release.

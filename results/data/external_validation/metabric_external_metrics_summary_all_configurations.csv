@@ -1,0 +1,139 @@
+configuration,endpoint,horizon_months,metric,mean_across_seeds,sd_across_seeds,n_seeds
+PathClin,METABRIC RFS (external analogue of TCGA PFI),12.0,harrell_c_index,0.5568802300410326,0.012835180262739193,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),12.0,somers_dxy,0.1137604600820652,0.025670360525478386,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),12.0,ipcw_auroc,0.5063855960635205,0.0234694611077382,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),12.0,ipcw_auprc,0.05935588271845227,0.009559420329819452,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),12.0,ipcw_brier,0.04025149589155098,0.0005192772878228211,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),12.0,integrated_Brier_score_3_to_60_months,0.11025480084515898,0.0010403269084947326,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),18.0,harrell_c_index,0.5605851645688807,0.008889177382529501,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),18.0,somers_dxy,0.12117032913776153,0.017778354765059002,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),18.0,ipcw_auroc,0.530152980781523,0.014379524435609848,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),18.0,ipcw_auprc,0.09728787822188448,0.005885912776780006,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),18.0,ipcw_brier,0.0713604030216933,0.0010996837230583978,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),18.0,integrated_Brier_score_3_to_60_months,0.11025480084515898,0.0010403269084947326,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),24.0,harrell_c_index,0.5610217994341287,0.01088325801684744,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),24.0,somers_dxy,0.12204359886825725,0.02176651603369488,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),24.0,ipcw_auroc,0.5624710278605554,0.01446265042119374,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),24.0,ipcw_auprc,0.13973506621438186,0.010258863495707794,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),24.0,ipcw_brier,0.0959967757851023,0.0011017345528406824,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),24.0,integrated_Brier_score_3_to_60_months,0.11025480084515898,0.0010403269084947326,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),3.0,harrell_c_index,0.5605334699548133,0.01115140520082207,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),3.0,somers_dxy,0.12106693990962678,0.02230281040164414,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),3.0,ipcw_auroc,0.5550121506682868,0.04853437257414514,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),3.0,ipcw_auprc,0.13846512358767843,0.1063371269396506,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),3.0,ipcw_brier,0.004811847427691616,2.563074683476643e-05,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),3.0,integrated_Brier_score_3_to_60_months,0.11025480084515898,0.0010403269084947326,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),36.0,harrell_c_index,0.5605348546319759,0.013400401059634639,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),36.0,somers_dxy,0.1210697092639518,0.026800802119269277,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),36.0,ipcw_auroc,0.572618321472947,0.015781460013102776,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),36.0,ipcw_auprc,0.21978168221430136,0.01595993581367509,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),36.0,ipcw_brier,0.1346762090013533,0.0016661590262261512,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),36.0,integrated_Brier_score_3_to_60_months,0.11025480084515898,0.0010403269084947326,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),6.0,harrell_c_index,0.5621013860618397,0.011817164741049805,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),6.0,somers_dxy,0.12420277212367936,0.02363432948209961,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),6.0,ipcw_auroc,0.4932247899159664,0.05770599250090858,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),6.0,ipcw_auprc,0.0704413497463485,0.049182484079723456,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),6.0,ipcw_brier,0.008536499678284017,0.00010713054307275224,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),6.0,integrated_Brier_score_3_to_60_months,0.11025480084515898,0.0010403269084947326,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),60.0,harrell_c_index,0.5604342347581661,0.011189734339907111,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),60.0,somers_dxy,0.1208684695163323,0.022379468679814222,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),60.0,ipcw_auroc,0.569090711769322,0.013529514905908742,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),60.0,ipcw_auprc,0.3157626258607996,0.021511723426501973,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),60.0,ipcw_brier,0.1900897909092084,0.002485598538060447,10
+PathClin,METABRIC RFS (external analogue of TCGA PFI),60.0,integrated_Brier_score_3_to_60_months,0.11025480084515898,0.0010403269084947326,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),12.0,ipcw_auroc,0.4996355351016986,0.022773052225007768,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),12.0,ipcw_auprc,0.06382920115277299,0.014073253518724531,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),12.0,ipcw_brier,0.03987379917990875,0.00034209427307400973,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),12.0,ipcw_event_prevalence,0.041258759688040554,0.0,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),12.0,ipcw_auprc_lift_over_prevalence,1.5470460487757902,0.3410973481784976,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),12.0,integrated_Brier_score_3_to_60_months,0.10982563511864708,0.001296337325810801,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),120.0,ipcw_auroc,0.5717001508865813,0.01694472870609042,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),120.0,ipcw_auprc,0.4653029905056739,0.0194843499878915,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),120.0,ipcw_brier,0.24250628300134103,0.005756931817307981,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),120.0,ipcw_event_prevalence,0.40081690819608484,0.0,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),120.0,ipcw_auprc_lift_over_prevalence,1.1608866317536726,0.0486115969398165,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),120.0,integrated_Brier_score_3_to_60_months,0.10982563511864708,0.001296337325810801,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),18.0,ipcw_auroc,0.5303351152286299,0.018099560572998562,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),18.0,ipcw_auprc,0.10119426161167322,0.012219672804351961,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),18.0,ipcw_brier,0.07035732642703073,0.0008629261499705814,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),18.0,ipcw_event_prevalence,0.07535714682944751,0.0,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),18.0,ipcw_auprc_lift_over_prevalence,1.342862168610254,0.16215678696020971,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),18.0,integrated_Brier_score_3_to_60_months,0.10982563511864708,0.001296337325810801,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),24.0,ipcw_auroc,0.5685044645257631,0.01629149965418321,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),24.0,ipcw_auprc,0.14359042005644404,0.013634234776296097,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),24.0,ipcw_brier,0.09517238379930544,0.0010113501465770047,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),24.0,ipcw_event_prevalence,0.10594425390867393,0.0,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),24.0,ipcw_auprc_lift_over_prevalence,1.3553393861286884,0.1286925366244882,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),24.0,integrated_Brier_score_3_to_60_months,0.10982563511864708,0.001296337325810801,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),3.0,ipcw_auroc,0.5277269271614847,0.05111547722605647,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),3.0,ipcw_auprc,0.1451589454987498,0.08966882994500136,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),3.0,ipcw_brier,0.0047871899536899905,2.3297099537205302e-05,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),3.0,ipcw_event_prevalence,0.004810662128929245,0.0,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),3.0,ipcw_auprc_lift_over_prevalence,30.174421235244637,18.639602520778116,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),3.0,integrated_Brier_score_3_to_60_months,0.10982563511864708,0.001296337325810801,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),36.0,ipcw_auroc,0.576971250151142,0.01571769350889508,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),36.0,ipcw_auprc,0.2157219705377963,0.015585923806661454,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),36.0,ipcw_brier,0.13383770292034108,0.001675140614524087,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),36.0,ipcw_event_prevalence,0.1588602088343909,0.0,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),36.0,ipcw_auprc_lift_over_prevalence,1.3579358362966956,0.09811093615588484,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),36.0,integrated_Brier_score_3_to_60_months,0.10982563511864708,0.001296337325810801,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),6.0,ipcw_auroc,0.5026092500948816,0.056841739967379415,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),6.0,ipcw_auprc,0.08887940047929392,0.052300903140791756,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),6.0,ipcw_brier,0.008414990914435086,0.00010068948238940034,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),6.0,ipcw_event_prevalence,0.00845012408801152,0.0,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),6.0,ipcw_auprc_lift_over_prevalence,10.518117787807421,6.189365102341259,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),6.0,integrated_Brier_score_3_to_60_months,0.10982563511864708,0.001296337325810801,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),60.0,ipcw_auroc,0.5671999242445176,0.016630698344434956,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),60.0,ipcw_auprc,0.2984092386379621,0.020293400480642335,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),60.0,ipcw_brier,0.19066634144298883,0.002974602605777048,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),60.0,ipcw_event_prevalence,0.2483790797016962,0.0,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),60.0,ipcw_auprc_lift_over_prevalence,1.2014266217442797,0.08170334033371392,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),60.0,integrated_Brier_score_3_to_60_months,0.10982563511864708,0.001296337325810801,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),84.0,ipcw_auroc,0.5605888649719051,0.01609367849312697,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),84.0,ipcw_auprc,0.35281773947385847,0.019179899352365627,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),84.0,ipcw_brier,0.2201160708103353,0.004056001009305809,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),84.0,ipcw_event_prevalence,0.3092302592457376,0.0,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),84.0,ipcw_auprc_lift_over_prevalence,1.1409547705144956,0.06202465243585312,10
+PathNoUDP_MutTMB,METABRIC recurrence-free survival (recurrence event),84.0,integrated_Brier_score_3_to_60_months,0.10982563511864708,0.001296337325810801,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),12.0,harrell_c_index,0.5526172706166891,0.01315421912352053,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),12.0,somers_dxy,0.10523454123337812,0.02630843824704106,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),12.0,ipcw_auroc,0.4951390442108402,0.02741539261864932,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),12.0,ipcw_auprc,0.06109795944249334,0.013038039275017715,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),12.0,ipcw_brier,0.03995306415518888,0.0003091935276176964,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),12.0,integrated_Brier_score_3_to_60_months,0.11106490502118893,0.0009053832854401459,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),18.0,harrell_c_index,0.5499559211103264,0.015946292990060763,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),18.0,somers_dxy,0.0999118422206529,0.03189258598012153,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),18.0,ipcw_auroc,0.5300059658243491,0.021370986322264696,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),18.0,ipcw_auprc,0.10136688997032135,0.011951526406189784,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),18.0,ipcw_brier,0.0706549269506925,0.0007188440737144766,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),18.0,integrated_Brier_score_3_to_60_months,0.11106490502118893,0.0009053832854401459,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),24.0,harrell_c_index,0.5506584139907781,0.015891076877653242,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),24.0,somers_dxy,0.10131682798155613,0.031782153755306485,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),24.0,ipcw_auroc,0.5571606514986677,0.025076086504290218,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),24.0,ipcw_auprc,0.1414377834451666,0.00838724091104369,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),24.0,ipcw_brier,0.09588353664913041,0.0008311452759835764,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),24.0,integrated_Brier_score_3_to_60_months,0.11106490502118893,0.0009053832854401459,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),3.0,harrell_c_index,0.5538551719999816,0.01835502681810352,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),3.0,somers_dxy,0.10771034399996307,0.03671005363620704,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),3.0,ipcw_auroc,0.5421324422843257,0.04740859921747436,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),3.0,ipcw_auprc,0.15316054029111284,0.11363328086965059,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),3.0,ipcw_brier,0.004809471113754007,1.6824359276338094e-05,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),3.0,integrated_Brier_score_3_to_60_months,0.11106490502118893,0.0009053832854401459,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),36.0,harrell_c_index,0.5483487724836954,0.015453312709934244,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),36.0,somers_dxy,0.09669754496739083,0.030906625419868487,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),36.0,ipcw_auroc,0.5678944990398735,0.01957997580118997,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),36.0,ipcw_auprc,0.21742141208957091,0.015153762724336921,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),36.0,ipcw_brier,0.13505285035297612,0.0015269186230672251,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),36.0,integrated_Brier_score_3_to_60_months,0.11106490502118893,0.0009053832854401459,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),6.0,harrell_c_index,0.5513544450444712,0.01708655777318892,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),6.0,somers_dxy,0.10270889008894242,0.03417311554637784,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),6.0,ipcw_auroc,0.4960259103641456,0.06980351552566023,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),6.0,ipcw_auprc,0.09311154958714234,0.06621032156467552,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),6.0,ipcw_brier,0.008471513244601707,9.003372909477401e-05,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),6.0,integrated_Brier_score_3_to_60_months,0.11106490502118893,0.0009053832854401459,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),60.0,harrell_c_index,0.5523643362550021,0.013826358608790978,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),60.0,somers_dxy,0.10472867251000428,0.027652717217581956,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),60.0,ipcw_auroc,0.5617551299818009,0.01726325360793879,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),60.0,ipcw_auprc,0.3025402092263032,0.014388934143739334,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),60.0,ipcw_brier,0.19398437392544982,0.0016994612721316826,10
+PathUDP_MutTMB,METABRIC RFS (external analogue of TCGA PFI),60.0,integrated_Brier_score_3_to_60_months,0.11106490502118893,0.0009053832854401459,10

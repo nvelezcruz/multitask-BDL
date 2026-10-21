@@ -1,0 +1,31 @@
+analysis_config,target_cancer,across_horizon_cancer_preference_rank,feature,feature_type,across_horizon_specificity_margin,q_target_cancer_across_horizons,other_cancer_1,q_other_cancer_1_across_horizons,other_cancer_2,q_other_cancer_2_across_horizons,target_mean_selection_fraction_across_horizons,other_cancer_1_mean_selection_fraction_across_horizons,other_cancer_2_mean_selection_fraction_across_horizons
+PathClin,BRCA,1,Cation-coupled Chloride cotransporters (Reactome),pathway,0.6048192771084338,0.6638554216867469,COAD,0.0590361445783132,LUAD,0.0532520325203252,0.7,0.1,0.1
+PathClin,BRCA,2,BMP receptor signaling(NCI/NATURE) (Pathologist.db),pathway,0.5498456077503977,0.6161106679913615,COAD,0.0481927710843373,LUAD,0.0662650602409638,0.7,0.1,0.1
+PathClin,BRCA,3,Hyaluronan metabolism (Reactome),pathway,0.49473853602563556,0.5488035766760421,COAD,0.0421686746987951,LUAD,0.0540650406504065,0.7,0.1,0.1
+PathClin,BRCA,4,Hs_GABA_receptor_signaling_WP4159_20251020 (WikiPathways),pathway,0.4634223304367295,0.4634223304367295,COAD,0.0,LUAD,0.0,0.5,0.0,0.0
+PathClin,BRCA,5,RNA Polymerase III Transcription Initiation From Type 2 Promoter (Reactome),pathway,0.4139175750621534,0.4139175750621534,COAD,0.0,LUAD,0.0,0.5,0.0,0.0
+PathClin,BRCA,6,Hs_MAPK_cascade_WP422_20250303 (WikiPathways),pathway,0.3915662650602409,0.3915662650602409,COAD,0.0,LUAD,0.0,0.4,0.0,0.0
+PathClin,BRCA,7,JNK (c-Jun kinases) phosphorylation and  activation mediated by activated human TAK1 (Reactome),pathway,0.3770578247951154,0.3770578247951154,COAD,0.0,LUAD,0.0,0.4,0.0,0.0
+PathClin,BRCA,8,"Plasma lipoprotein assembly, remodeling, and clearance (Reactome)",pathway,0.3669850132236261,0.3669850132236261,COAD,0.0,LUAD,0.0,0.5,0.0,0.0
+PathClin,BRCA,9,Formation of HIV elongation complex in the absence of HIV Tat (Reactome),pathway,0.3516337125505506,0.3516337125505506,COAD,0.0,LUAD,0.0,0.4,0.0,0.0
+PathClin,BRCA,10,RNA Polymerase III Transcription Initiation From Type 1 Promoter (Reactome),pathway,0.3192723274048575,0.3192723274048575,COAD,0.0,LUAD,0.0,0.4,0.0,0.0
+PathClin,COAD,1,Apoptosis - multiple species(KEGG) (Pathologist.db),pathway,0.8349962841117332,0.8349962841117332,BRCA,0.0,LUAD,0.0,1.0,0.0,0.0
+PathClin,COAD,2,Hs_Neural_crest_cell_migration_during_development_WP4564_20250310 (WikiPathways),pathway,0.8114333161458371,0.8114333161458371,BRCA,0.0,LUAD,0.0,1.0,0.0,0.0
+PathClin,COAD,3,Non-alcoholic fatty liver disease (NAFLD)(KEGG) (Pathologist.db),pathway,0.7235119501514194,0.7235119501514194,BRCA,0.0,LUAD,0.0,0.9,0.0,0.0
+PathClin,COAD,4,Epstein-Barr virus infection(KEGG) (Pathologist.db),pathway,0.7124258940524,0.742144769554408,BRCA,0.0293172690763052,LUAD,0.029718875502008,0.9,0.1,0.1
+PathClin,COAD,5,Hs_TNF-related_weak_inducer_of_apoptosis_(TWEAK)_signaling_WP2036_20250310 (WikiPathways),pathway,0.6595516484261338,0.7214564103308957,BRCA,0.0619047619047619,LUAD,0.053012048192771,0.9,0.1,0.1
+PathClin,COAD,6,Hs_PDGF_pathway_WP2526_20250929 (WikiPathways),pathway,0.6209931952039623,0.6209931952039623,BRCA,0.0,LUAD,0.0,0.8,0.0,0.0
+PathClin,COAD,7,Hs_Riboflavin_and_CoQ_disorders_WP5037_20250815 (WikiPathways),pathway,0.584136546184739,0.584136546184739,BRCA,0.0,LUAD,0.0,0.7,0.0,0.0
+PathClin,COAD,8,caspase cascade in apoptosis(BIOCARTA) (Pathologist.db),pathway,0.5613728573123113,0.5613728573123113,BRCA,0.0,LUAD,0.0,0.6,0.0,0.0
+PathClin,COAD,9,Chagas disease (American trypanosomiasis)(KEGG) (Pathologist.db),pathway,0.5381293104909088,0.6383540188481472,BRCA,0.0285714285714285,LUAD,0.1002247083572384,0.8,0.1,0.2
+PathClin,COAD,10,ctl mediated immune response against target cells(BIOCARTA) (Pathologist.db),pathway,0.5163247323229022,0.5163247323229022,BRCA,0.0,LUAD,0.0,0.6,0.0,0.0
+PathClin,LUAD,1,Hs_Mammary_gland_development:_pregnancy_and_lactation_-_stage_3_of_4_WP2817_20250319 (WikiPathways),pathway,0.5599712438604593,0.5599712438604593,BRCA,0.0,COAD,0.0,0.7,0.0,0.0
+PathClin,LUAD,2,wnt signaling pathway(BIOCARTA) (Pathologist.db),pathway,0.5447184099239475,0.5447184099239475,BRCA,0.0,COAD,0.0,0.6,0.0,0.0
+PathClin,LUAD,3,actions of nitric oxide in the heart(BIOCARTA) (Pathologist.db),pathway,0.5251258226867983,0.5251258226867983,BRCA,0.0,COAD,0.0,0.6,0.0,0.0
+PathClin,LUAD,4,segmentation clock(BIOCARTA) (Pathologist.db),pathway,0.47953999505571665,0.5285359789914595,BRCA,0.0489959839357429,COAD,0.038152610441767,0.6,0.1,0.1
+PathClin,LUAD,5,Erythropoietin activates RAS (Reactome),pathway,0.4775110766980686,0.4775110766980686,BRCA,0.0,COAD,0.0,0.5,0.0,0.0
+PathClin,LUAD,6,SHC1 events in ERBB2 signaling (Reactome),pathway,0.4507526039115813,0.4507526039115813,BRCA,0.0,COAD,0.0,0.5,0.0,0.0
+PathClin,LUAD,7,Hs_Galanin_receptor_pathway_WP4970_20250309 (WikiPathways),pathway,0.4177008848401737,0.4177008848401737,BRCA,0.0,COAD,0.0,0.5,0.0,0.0
+PathClin,LUAD,8,Mitochondrial unfolded protein response (UPRmt) (Reactome),pathway,0.3819607547927331,0.3819607547927331,BRCA,0.0,COAD,0.0,0.5,0.0,0.0
+PathClin,LUAD,9,Deposition of new CENPA-containing nucleosomes at the centromere (Reactome),pathway,0.3653564401711461,0.3653564401711461,BRCA,0.0,COAD,0.0,0.4,0.0,0.0
+PathClin,LUAD,10,SHC1 events in ERBB4 signaling (Reactome),pathway,0.3617721283032936,0.4739672502545131,BRCA,0.1121951219512195,COAD,0.0785523044559189,0.6,0.2,0.2

@@ -42,3 +42,8 @@ venv/
 *.log
 slurm-*.out
 slurm-*.err
+
+# Curated, non-patient-level source data for the manuscript. Keep the broad
+# result-data exclusions above for all other generated files.
+!results/
+!results/**

@@ -1,0 +1,10 @@
+configuration,cancer,rows_before_modality_alignment,rows_after_modality_alignment,rows_removed,available_pathway_activity,available_pathway_consistency,available_tmb,available_mutation_profile,available_udp
+PathClin,BRCA,908,906,2,906,906,,,
+PathClin,LUAD,436,433,3,433,433,,,
+PathClin,COAD,387,387,0,387,387,,,
+PathNoUDP_MutTMB,BRCA,908,789,119,906,906,791.0,795.0,
+PathNoUDP_MutTMB,LUAD,436,425,11,433,433,427.0,429.0,
+PathNoUDP_MutTMB,COAD,387,361,26,387,387,361.0,361.0,
+PathUDP_MutTMB,BRCA,908,789,119,906,906,791.0,795.0,906.0
+PathUDP_MutTMB,LUAD,436,425,11,433,433,427.0,429.0,433.0
+PathUDP_MutTMB,COAD,387,361,26,387,387,361.0,361.0,387.0
