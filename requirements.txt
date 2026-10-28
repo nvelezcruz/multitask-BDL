@@ -7,5 +7,6 @@ scikit-learn
 lifelines
 torch
 gpytorch
+linear-operator
 matplotlib
 openpyxl

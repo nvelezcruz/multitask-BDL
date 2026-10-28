@@ -1,0 +1,10 @@
+{
+  "name": "PathNoUDP",
+  "model_script": "../TCGA_dgp_PathNoUDP_MutTMB_NPJ_August.py",
+  "artifact_root": "/RESTRICTED/artifacts/PathNoUDP",
+  "artifact_pattern": "seed{seed}/cfg_TOP0_S2_P2_MT2_OUT1/august_fitted_artifacts_seed{seed}.pt",
+  "oof_root": "/RESTRICTED/oof/PathNoUDP",
+  "oof_pattern": "seed{seed}/cfg_TOP0_S2_P2_MT2_OUT1/split_seed{seed}_analysis/posthoc_crossfit_oof_native_risks.csv",
+  "molecular_types": ["pathway", "mutation", "tmb"],
+  "molecular_label": "molecular"
+}

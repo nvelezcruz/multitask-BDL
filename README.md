@@ -8,7 +8,7 @@ This folder contains the code for the PathClin, PathNoUDP, and PathUDP input con
 | PathNoUDP | PathClin inputs, somatic mutations, tumor mutational burden |
 | PathUDP | PathNoUDP inputs, gene-state probabilities |
 
-The files in `code/` are grouped by their `TCGA_preprocess_`, `TCGA_dgp_`, and `TCGA_baselines_` prefixes. The two `TCGA_collect_` scripts combine results after seeds 42–51 finish. The DGP scripts import `TCGA_treatment_conditioned_WFC_NPJ_August.py`. That helper is not the later fixed-contrast analysis. Use Python 3.10 or newer.
+The files in `code/` are grouped by their `TCGA_preprocess_`, `TCGA_dgp_`, and `TCGA_baselines_` prefixes. The two `TCGA_collect_` scripts combine results after seeds 42–51 finish. The DGP scripts import `TCGA_treatment_conditioned_WFC_NPJ_August.py`; that helper is the historical donor-based workflow, not the fixed-contrast analysis. The separate paper-style fixed-support analysis is in [`code/fixed_contrast/`](code/fixed_contrast/), with an explicit restricted-input checklist and JSON configuration examples. Use Python 3.10 or newer.
 
 ## Inputs and environment
 
@@ -49,6 +49,6 @@ The scripts save patient-level predictions and outcomes. Check those files befor
 
 The DGP scripts, preprocessors, WFC helper, and DGP collector came from `NPJ_August_WFC_corrected`. The baseline scripts and collector came from `NPJ_Sol_run_package_2026-09-08_v2`. In this copy, local paths were replaced with `TCGA_ROOT` and optional `NPJ_SCRATCH_ROOT` variables. The DGP collector was also fixed to count all four C-index groups. Model code and training settings were not changed.
 
-This folder does not include the later fixed-contrast Wasserstein analysis, paired treatment analysis, calibration figures, or METABRIC validation.
+The fixed-support fixed-contrast Wasserstein and paired treatment analysis is in [`code/fixed_contrast/`](code/fixed_contrast/). It requires restricted saved artifacts and matched OOF calibration tables, which are intentionally not included. METABRIC validation code is not included.
 
 No license has been selected for public reuse.
