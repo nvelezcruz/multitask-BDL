@@ -218,7 +218,7 @@ def profile_metadata(
 
 
 def profile_is_supported(n_train: int, n_train_events: int) -> bool:
-    """Apply the fixed support rule used for the paper treatment tables."""
+    """Apply the treatment-profile eligibility rule."""
 
     return int(n_train) >= PROFILE_MIN_N and int(n_train_events) >= PROFILE_MIN_EVENTS
 
