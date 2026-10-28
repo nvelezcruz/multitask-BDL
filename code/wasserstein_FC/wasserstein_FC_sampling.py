@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Coherent posterior sampling for fixed-contrast DGP analyses.
+"""Coherent posterior sampling for wasserstein_FC.
 
 The functions in this module evaluate all counterfactual scenarios for one
 patient chunk in the same posterior draw.  In particular, the low/high feature
@@ -733,14 +733,14 @@ def _prepare_artifact_smoke_scenarios(
 ):
     """Load a fitted artifact and construct deterministic paired scenarios."""
     try:
-        from .fixed_contrast_io import (
+        from .wasserstein_FC_io import (
             load_artifact,
             load_config,
             load_model_module,
             treatment_columns,
         )
     except ImportError:  # pragma: no cover - direct-script invocation
-        from fixed_contrast_io import (
+        from wasserstein_FC_io import (
             load_artifact,
             load_config,
             load_model_module,
@@ -905,7 +905,7 @@ def run_deterministic_artifact_smoke(
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Run deterministic checks for coherent fixed-contrast DGP sampling."
+        description="Run deterministic checks for coherent wasserstein_FC sampling."
     )
     parser.add_argument(
         "--artifact-smoke-config-file",

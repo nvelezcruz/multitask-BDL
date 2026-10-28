@@ -1,17 +1,14 @@
-# Fixed-support Wasserstein analysis
+# wasserstein_FC
 
-This folder contains the post-fit analysis used for the fixed-contrast
-Wasserstein and treatment-comparison tables. It loads saved models; it does
-not train or refit a DGP and it does not select or substitute donor patients.
+This folder runs the saved models for Wasserstein feature and treatment
+comparisons. It does not train a DGP or use donor patients.
 
-The original September 16, 2026 runner was not retained. The runner here is a
-careful reconstruction from the retained fixed-support outputs and the later
-fixed-contrast implementation. It is **not** a byte-identical archival copy.
-Before treating a newly generated table as a paper reproduction, compare it
-against the released aggregate tables in `results/data/wasserstein/` and
-`results/data/treatment/`.
+The original September 16, 2026 runner was not retained. This version was
+rebuilt from saved outputs and code. Compare any newly generated table with
+the released aggregate tables in `results/data/wasserstein/` and
+`results/data/treatment/` before using it.
 
-## Paper settings represented here
+## Settings
 
 - Cancers: BRCA, COAD, and LUAD; seeds 42--51; horizons 18, 24, and 36 months.
 - Mutation contrast: wild type `0` versus mutated `1`.
@@ -46,8 +43,8 @@ The artifact must contain these fields: `model`, `Xtr_np_sub`, `Xte_np_sub`,
 `g_tr`, `g_te`, `groups`, `meta_tr`, `meta_te`, `alpha_dt`, and `dt_edges`.
 Only load artifacts from a trusted source: PyTorch artifact loading uses pickle.
 The model-definition module still imports the historical WFC helper so an
-existing serialized model can deserialize, but this fixed-contrast runner never
-calls its donor-selection or donor-replacement functions.
+existing serialized model can deserialize, but `wasserstein_FC` never calls its
+donor-selection or donor-replacement functions.
 
 The OOF CSV must contain:
 
@@ -76,20 +73,20 @@ make that path absolute. The supplied patterns expect:
 Check every required file before starting analysis:
 
 ```bash
-python3 code/fixed_contrast/run_fixed_contrast_wasserstein.py \
+python3 code/wasserstein_FC/run_wasserstein_FC.py \
   --config-file /secure/PathNoUDP.json \
   --seeds 42-51 \
-  --output-root /secure/fixed_contrast_run \
+  --output-root /secure/wasserstein_FC_run \
   --check-inputs
 ```
 
 Then run one configuration at a time:
 
 ```bash
-python3 code/fixed_contrast/run_fixed_contrast_wasserstein.py \
+python3 code/wasserstein_FC/run_wasserstein_FC.py \
   --config-file /secure/PathNoUDP.json \
   --seeds 42-51 \
-  --output-root /secure/fixed_contrast_run \
+  --output-root /secure/wasserstein_FC_run \
   --write-patient-level
 ```
 
@@ -102,13 +99,13 @@ release.
 
 ## Files in this folder
 
-- `run_fixed_contrast_wasserstein.py` -- post-fit molecular, branch, and
+- `run_wasserstein_FC.py` -- post-fit molecular, branch, and
   treatment-comparison analysis.
-- `fixed_contrast_io.py` -- portable JSON configuration and saved-artifact
+- `wasserstein_FC_io.py` -- portable JSON configuration and saved-artifact
   loading. It contains no donor workflow.
-- `fixed_contrast_joint_sampling.py` -- joint posterior sampling helpers.
-- `fixed_contrast_calibration.py` -- OOF calibration fit and self-test.
-- `fixed_contrast_finalize.py` -- combines seed partitions into aggregate
+- `wasserstein_FC_sampling.py` -- joint posterior sampling helpers.
+- `wasserstein_FC_calibration.py` -- OOF calibration fit and self-test.
+- `wasserstein_FC_finalize.py` -- combines seed partitions into aggregate
   tables.
 - `input_manifest.*.example.json` -- one complete input manifest per model
   configuration.

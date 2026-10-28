@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Cancer-specific fixed-slope calibration for fixed-contrast analyses.
+"""Cancer-specific fixed-slope calibration for wasserstein_FC.
 
 This module fits the calibration model selected for the manuscript::
 
@@ -685,9 +685,9 @@ def run_self_test(
 
     import torch
     try:
-        from .fixed_contrast_io import load_artifact, load_config, load_model_module, oof_path
+        from .wasserstein_FC_io import load_artifact, load_config, load_model_module, oof_path
     except ImportError:  # pragma: no cover - direct-script invocation
-        from fixed_contrast_io import load_artifact, load_config, load_model_module, oof_path
+        from wasserstein_FC_io import load_artifact, load_config, load_model_module, oof_path
 
     config = load_config(config_file)
     model_module = load_model_module(config, runtime_dir)

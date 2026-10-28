@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Finalize the fixed-contrast PathNoUDP/PathClin Wasserstein analyses.
+"""Finalize wasserstein_FC PathNoUDP/PathClin analyses.
 
 The inference runner writes one self-contained partition for each outer split::
 
@@ -1006,7 +1006,7 @@ def _write_qc_report(
 ) -> list[str]:
     failures: list[str] = []
     lines = [
-        "FIXED-CONTRAST WASSERSTEIN QC REPORT",
+        "WASSERSTEIN_FC QC REPORT",
         f"Generated UTC: {datetime.now(timezone.utc).isoformat()}",
         f"Configurations: {', '.join(CONFIGS)}",
         f"Outer split seeds: {', '.join(map(str, seeds))}",
@@ -1096,7 +1096,7 @@ def _write_qc_report(
                 and np.allclose(mutation_low, 0.0)
                 and np.allclose(mutation_high, 1.0)
             )
-            check("Mutation fixed contrasts are exactly 0 versus 1", mutation_ok)
+            check("Mutation values are exactly 0 versus 1", mutation_ok)
         if "contrast_definition" in q and "feature_type" in q:
             continuous = q[q["feature_type"].astype(str).str.lower().isin({"pathway", "tmb"})]
             # Non-evaluable screened features may legitimately have no contrast
@@ -1180,7 +1180,7 @@ def _write_qc_report(
         counts = Counter(base.drop_duplicates(["cancer", "horizon", "feature"])["n_seeds_evaluable"].astype(int))
         lines.append(f"{config}: feature/cancer/horizon evaluability counts {dict(sorted(counts.items(), reverse=True))}")
 
-    lines.extend(["", "STRONGEST FIXED-CONTRAST MOLECULAR FEATURES"])
+    lines.extend(["", "STRONGEST MOLECULAR FEATURES"])
     for config, summary in feature_summaries.items():
         primary_scope = "molecular_all" if config == "PathNoUDP" else "pathway_only"
         sub = summary[summary["ranking_scope"].eq(primary_scope)]
@@ -1225,7 +1225,7 @@ def _write_qc_report(
             reversed_rows = summary[summary["total_patient_sign_reversals"].fillna(0) > 0]
             lines.append(f"{config} rows with at least one patient-level treatment-contrast reversal: {len(reversed_rows)}")
 
-    lines.extend(["", "FIXED CONTRASTS (OUTER-TRAINING VALUES)"])
+    lines.extend(["", "FEATURE VALUES (OUTER-TRAINING VALUES)"])
     if not quantiles.empty:
         display_cols = [c for c in (
             "analysis_config", "seed", "cancer", "feature", "feature_type",

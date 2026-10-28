@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fixed-contrast molecular, latent-branch, and treatment-interaction analysis.
+"""wasserstein_FC molecular, latent-branch, and treatment-interaction analysis.
 
 This program evaluates saved PathNoUDP and PathClin DGP artifacts.  It never
 fits or updates a DGP.  Molecular features are set to prespecified LOW/HIGH
@@ -47,7 +47,7 @@ except Exception:
 
 
 try:  # Support both ``python file.py`` and ``python -m`` execution.
-    from .fixed_contrast_io import (
+    from .wasserstein_FC_io import (
         CANCERS,
         GROUP_TO_CANCER,
         Config,
@@ -63,14 +63,14 @@ try:  # Support both ``python file.py`` and ``python -m`` execution.
         stable_seed,
         treatment_columns,
     )
-    from .fixed_contrast_calibration import fit_all_horizons, get_gamma
-    from .fixed_contrast_joint_sampling import (
+    from .wasserstein_FC_calibration import fit_all_horizons, get_gamma
+    from .wasserstein_FC_sampling import (
         joint_latent_samples,
         joint_output_samples,
         scores_to_calibrated_event_probabilities,
     )
 except ImportError:  # pragma: no cover - direct-script invocation
-    from fixed_contrast_io import (
+    from wasserstein_FC_io import (
         CANCERS,
         GROUP_TO_CANCER,
         Config,
@@ -86,8 +86,8 @@ except ImportError:  # pragma: no cover - direct-script invocation
         stable_seed,
         treatment_columns,
     )
-    from fixed_contrast_calibration import fit_all_horizons, get_gamma
-    from fixed_contrast_joint_sampling import (
+    from wasserstein_FC_calibration import fit_all_horizons, get_gamma
+    from wasserstein_FC_sampling import (
         joint_latent_samples,
         joint_output_samples,
         scores_to_calibrated_event_probabilities,
@@ -776,7 +776,7 @@ def run_seed(
                     group_index=group_index,
                     draws=draws,
                     random_seed=stable_seed(
-                        "fixed_contrast", config_name, seed, cancer, unit.feature,
+                        "wasserstein_FC", config_name, seed, cancer, unit.feature,
                         chunk_start, draws
                     ),
                 )
@@ -1172,7 +1172,7 @@ def main() -> None:
     config = load_config(args.config_file)
     if config.name not in {"PathNoUDP", "PathClin"}:
         raise ValueError(
-            "The paper fixed-support runner accepts PathNoUDP or PathClin; "
+            "wasserstein_FC accepts PathNoUDP or PathClin; "
             f"got {config.name!r}"
         )
     seeds = parse_seed_spec(args.seeds)
@@ -1206,11 +1206,8 @@ def main() -> None:
         )
     args.output_root.mkdir(parents=True, exist_ok=True)
     manifest = {
-        "analysis": "fixed_support_fixed_contrast_wasserstein_and_treatment_modification",
-        "implementation_status": (
-            "reconstructed from retained fixed-support output contracts; "
-            "not a byte-identical archive of the original 2026-09-16 source"
-        ),
+        "analysis": "wasserstein_FC",
+        "source_note": "rebuilt from saved outputs and code; the original September 16 runner was not retained",
         "config": config_to_manifest(config),
         "seeds": seeds,
         "horizons": list(HORIZONS),

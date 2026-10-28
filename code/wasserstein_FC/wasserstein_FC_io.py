@@ -1,4 +1,4 @@
-"""Portable input handling for the fixed-support Wasserstein analysis.
+"""Portable input handling for wasserstein_FC.
 
 This module intentionally contains no donor selection or donor substitution.
 It loads a saved DGP artifact, identifies molecular feature blocks, and resolves
@@ -126,7 +126,7 @@ def load_model_module(config: Config, runtime_dir: str | Path) -> Any:
         raise FileNotFoundError(f"Model script not found: {model_script}")
     runtime = Path(runtime_dir).resolve()
     model_tag = "PathNoUDP_MutTMB" if config.name == "PathNoUDP" else config.name
-    safe_root = runtime / f"fixed_contrast_August_{model_tag}"
+    safe_root = runtime / f"wasserstein_FC_August_{model_tag}"
     safe_root.mkdir(parents=True, exist_ok=True)
     os.environ["MPLCONFIGDIR"] = str(safe_root / "mpl")
     os.environ["TCGA_ROOT"] = str(safe_root)
@@ -137,7 +137,7 @@ def load_model_module(config: Config, runtime_dir: str | Path) -> Any:
     if parent not in sys.path:
         sys.path.insert(0, parent)
     module_spec = importlib.util.spec_from_file_location(
-        f"fixed_contrast_model_{config.name.lower()}", model_script
+        f"wasserstein_FC_model_{config.name.lower()}", model_script
     )
     if module_spec is None or module_spec.loader is None:
         raise RuntimeError(f"Cannot import model script {model_script}")
