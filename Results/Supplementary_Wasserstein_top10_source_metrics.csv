@@ -1,0 +1,121 @@
+model,horizon_months,panel,cancer,rank,feature,feature_type,consensus_score,mean_W_BRCA,mean_W_COAD,mean_W_LUAD,n_splits_BRCA,n_splits_COAD,n_splits_LUAD,mean_W_target,selection_fraction_target
+PathNoUDP,18,shared,shared,1,HECTD4,mutation,0.2598809523809524,0.0147573590899506,0.0245133439699808,0.0459722764790057,3.0,3.0,3.0,,
+PathNoUDP,18,shared,shared,2,VPS13A,mutation,0.2495114942528735,0.0079849095394213,0.0236177857344349,0.0363039510945478,3.0,3.0,3.0,,
+PathNoUDP,18,shared,shared,3,CNTNAP5,mutation,0.2229271708683473,0.005705078675722,0.0169725979988773,0.0212324503809212,3.0,3.0,3.0,,
+PathNoUDP,18,shared,shared,4,TMPRSS15,mutation,0.1673809523809523,0.0098090693354606,0.0301647940650582,0.0556628815829753,2.0,2.0,2.0,,
+PathNoUDP,18,shared,shared,5,SETD2,mutation,0.1616598480420806,0.0078859110362827,0.0189032736234366,0.0311815980821847,2.0,2.0,2.0,,
+PathNoUDP,18,shared,shared,6,KIF1A,mutation,0.1607282913165266,0.0086149713024496,0.022295566741377,0.0435036253184079,2.0,2.0,2.0,,
+PathNoUDP,18,shared,shared,7,SNTG1,mutation,0.160593220338983,0.0120541248470544,0.0362205673009157,0.0337808011099695,2.0,2.0,2.0,,
+PathNoUDP,18,shared,shared,8,MGA,mutation,0.1590444184687317,0.0084284921176731,0.0191600588150322,0.0267805224284529,2.0,2.0,2.0,,
+PathNoUDP,18,shared,shared,9,LAMA5,mutation,0.1568803418803419,0.0090175066143273,0.0229790592566132,0.0324971787631511,2.0,2.0,2.0,,
+PathNoUDP,18,shared,shared,10,ANKRD11,mutation,0.1565336134453781,0.0122539389412849,0.017456523142755,0.0445118993520736,2.0,2.0,2.0,,
+PathNoUDP,18,cancer_specific,BRCA,1,NCOR1,mutation,0.7353972605991549,,,,,,,0.0116299947840161,0.8
+PathNoUDP,18,cancer_specific,BRCA,2,ABCA13,mutation,0.6050909177230215,,,,,,,0.0183962703283343,0.7
+PathNoUDP,18,cancer_specific,BRCA,3,MAP3K1,mutation,0.6034307790912977,,,,,,,0.0053912993106576,0.9
+PathNoUDP,18,cancer_specific,BRCA,4,MUC17,mutation,0.5807840763424015,,,,,,,0.0185802203292647,0.6
+PathNoUDP,18,cancer_specific,BRCA,5,PCLO,mutation,0.5604466362816313,,,,,,,0.0130549514045317,0.6
+PathNoUDP,18,cancer_specific,BRCA,6,TP53,mutation,0.5167566348573328,,,,,,,0.0037553720467257,0.8
+PathNoUDP,18,cancer_specific,BRCA,7,RYR2,mutation,0.4029761904761905,,,,,,,0.0082217266783117,0.5
+PathNoUDP,18,cancer_specific,BRCA,8,OBSCN,mutation,0.3956932773109244,,,,,,,0.0153872167691587,0.5
+PathNoUDP,18,cancer_specific,BRCA,9,GATA3,mutation,0.3870098039215686,,,,,,,0.0050675474572926,0.5
+PathNoUDP,18,cancer_specific,BRCA,10,PTEN,mutation,0.3805288895219105,,,,,,,0.0119322485290467,0.5
+PathNoUDP,18,cancer_specific,COAD,1,Epstein-Barr virus infection(KEGG) (Pathologist.db),pathway,0.554729943259355,,,,,,,0.006408998535739,0.9
+PathNoUDP,18,cancer_specific,COAD,2,Apoptosis - multiple species(KEGG) (Pathologist.db),pathway,0.5508457229045465,,,,,,,0.0061668814159929,1.0
+PathNoUDP,18,cancer_specific,COAD,3,ZFHX4,mutation,0.5418371685919046,,,,,,,0.0196866450831293,1.0
+PathNoUDP,18,cancer_specific,COAD,4,LRP1,mutation,0.4899662429074194,,,,,,,0.021635353565216,0.6
+PathNoUDP,18,cancer_specific,COAD,5,caspase cascade in apoptosis(BIOCARTA) (Pathologist.db),pathway,0.4753795877325289,,,,,,,0.0064378455946487,0.7
+PathNoUDP,18,cancer_specific,COAD,6,Chagas disease (American trypanosomiasis)(KEGG) (Pathologist.db),pathway,0.4695616964734612,,,,,,,0.0064899947610683,0.8
+PathNoUDP,18,cancer_specific,COAD,7,Hs_Neural_crest_cell_migration_during_development_WP4564_20250310 (WikiPathways),pathway,0.4601890756302521,,,,,,,0.0061863624723627,0.8
+PathNoUDP,18,cancer_specific,COAD,8,Hs_TNF-related_weak_inducer_of_apoptosis_(TWEAK)_signaling_WP2036_20250310 (WikiPathways),pathway,0.4019652732888027,,,,,,,0.0063130406529774,0.7
+PathNoUDP,18,cancer_specific,COAD,9,Hepatitis C(KEGG) (Pathologist.db),pathway,0.3834816490698843,,,,,,,0.0064038595051637,0.7
+PathNoUDP,18,cancer_specific,COAD,10,Non-alcoholic fatty liver disease (NAFLD)(KEGG) (Pathologist.db),pathway,0.3801682467858939,,,,,,,0.0064541309007576,0.7
+PathNoUDP,18,cancer_specific,LUAD,1,Fertilization (Reactome),pathway,0.4996062281556661,,,,,,,0.0075472814755306,0.9
+PathNoUDP,18,cancer_specific,LUAD,2,SMARCA4,mutation,0.4692076658324467,,,,,,,0.0816779524087905,0.5
+PathNoUDP,18,cancer_specific,LUAD,3,SHC1 events in ERBB2 signaling (Reactome),pathway,0.4682075503102078,,,,,,,0.0076921089785173,0.8
+PathNoUDP,18,cancer_specific,LUAD,4,ZNF521,mutation,0.4499051761602901,,,,,,,0.0604589618742465,0.5
+PathNoUDP,18,cancer_specific,LUAD,5,Interaction With Cumulus Cells And The Zona Pellucida (Reactome),pathway,0.4496221107843998,,,,,,,0.0072233880766563,0.9
+PathNoUDP,18,cancer_specific,LUAD,6,TMB,tmb,0.4479817786336162,,,,,,,0.0223481900524347,1.0
+PathNoUDP,18,cancer_specific,LUAD,7,Hs_Mammary_gland_development:_pregnancy_and_lactation_-_stage_3_of_4_WP2817_20250319 (WikiPathways),pathway,0.4419436147580164,,,,,,,0.0073252606671303,0.8
+PathNoUDP,18,cancer_specific,LUAD,8,Hs_LncRNA-like_NMRK2_in_translocation_renal_cell_carcinoma_WP5519_20251031 (WikiPathways),pathway,0.3987994211756545,,,,,,,0.0076907036293829,0.7
+PathNoUDP,18,cancer_specific,LUAD,9,SHC1 events in ERBB4 signaling (Reactome),pathway,0.3863327954329089,,,,,,,0.0082770481240003,0.6
+PathNoUDP,18,cancer_specific,LUAD,10,Erythropoietin activates RAS (Reactome),pathway,0.38160060889287,,,,,,,0.0079744838488598,0.6
+PathNoUDP,36,shared,shared,1,HECTD4,mutation,0.2598809523809524,0.0256690587848424,0.0363946842650571,0.055859496196111,3.0,3.0,3.0,,
+PathNoUDP,36,shared,shared,2,VPS13A,mutation,0.2503448275862069,0.0146262493605414,0.0354499127715825,0.0428889772544304,3.0,3.0,3.0,,
+PathNoUDP,36,shared,shared,3,CNTNAP5,mutation,0.2220868347338935,0.0114653411631782,0.0237072156742215,0.0248031386484701,3.0,3.0,3.0,,
+PathNoUDP,36,shared,shared,4,TMPRSS15,mutation,0.1673809523809523,0.0203173290938138,0.0457530580461024,0.0674212351441383,2.0,2.0,2.0,,
+PathNoUDP,36,shared,shared,5,SETD2,mutation,0.160812390414962,0.0159799465909599,0.030988847836852,0.0369929578155279,2.0,2.0,2.0,,
+PathNoUDP,36,shared,shared,6,KIF1A,mutation,0.1607282913165266,0.0167158734984695,0.033204624429345,0.0507673136889934,2.0,2.0,2.0,,
+PathNoUDP,36,shared,shared,7,SNTG1,mutation,0.160593220338983,0.0245968857780098,0.0569463465362787,0.038911685347557,2.0,2.0,2.0,,
+PathNoUDP,36,shared,shared,8,MGA,mutation,0.1581823495032145,0.0166106857359409,0.0303989257663487,0.0312528694048523,2.0,2.0,2.0,,
+PathNoUDP,36,shared,shared,9,TRPA1,mutation,0.1565056022408963,0.0121129290200769,0.0266551515087484,0.0546536836773157,2.0,2.0,2.0,,
+PathNoUDP,36,shared,shared,10,LAMA5,mutation,0.1560470085470085,0.0206758296117186,0.0353269670158623,0.0380928590893745,2.0,2.0,2.0,,
+PathNoUDP,36,cancer_specific,BRCA,1,NCOR1,mutation,0.7353972605991549,,,,,,,0.0240654747467487,0.8
+PathNoUDP,36,cancer_specific,BRCA,2,ABCA13,mutation,0.6042505815885677,,,,,,,0.0344766652477638,0.7
+PathNoUDP,36,cancer_specific,BRCA,3,MAP3K1,mutation,0.6034307790912977,,,,,,,0.0103868169503079,0.9
+PathNoUDP,36,cancer_specific,BRCA,4,MUC17,mutation,0.5807840763424015,,,,,,,0.0372594517345229,0.6
+PathNoUDP,36,cancer_specific,BRCA,5,PCLO,mutation,0.5604466362816313,,,,,,,0.0265606169899304,0.6
+PathNoUDP,36,cancer_specific,BRCA,6,TP53,mutation,0.5175969709917866,,,,,,,0.0074548214906826,0.8
+PathNoUDP,36,cancer_specific,BRCA,7,RYR2,mutation,0.4046428571428572,,,,,,,0.0157349191606044,0.5
+PathNoUDP,36,cancer_specific,BRCA,8,OBSCN,mutation,0.394859943977591,,,,,,,0.0303410500288008,0.5
+PathNoUDP,36,cancer_specific,BRCA,9,GATA3,mutation,0.3861694677871148,,,,,,,0.0096883953548967,0.5
+PathNoUDP,36,cancer_specific,BRCA,10,PTEN,mutation,0.3805288895219105,,,,,,,0.0229430109262466,0.5
+PathNoUDP,36,cancer_specific,COAD,1,Epstein-Barr virus infection(KEGG) (Pathologist.db),pathway,0.5596724843783667,,,,,,,0.0087619335390626,0.9
+PathNoUDP,36,cancer_specific,COAD,2,Apoptosis - multiple species(KEGG) (Pathologist.db),pathway,0.5558880988292753,,,,,,,0.0085248901043086,1.0
+PathNoUDP,36,cancer_specific,COAD,3,ZFHX4,mutation,0.539330165790784,,,,,,,0.0287317587062716,1.0
+PathNoUDP,36,cancer_specific,COAD,4,LRP1,mutation,0.4882568411980177,,,,,,,0.0313280426586667,0.6
+PathNoUDP,36,cancer_specific,COAD,5,Chagas disease (American trypanosomiasis)(KEGG) (Pathologist.db),pathway,0.4763134741075918,,,,,,,0.0090568684972822,0.8
+PathNoUDP,36,cancer_specific,COAD,6,caspase cascade in apoptosis(BIOCARTA) (Pathologist.db),pathway,0.4711565395388924,,,,,,,0.0087667131530386,0.7
+PathNoUDP,36,cancer_specific,COAD,7,Hs_Neural_crest_cell_migration_during_development_WP4564_20250310 (WikiPathways),pathway,0.4618480212597859,,,,,,,0.0085642121266573,0.8
+PathNoUDP,36,cancer_specific,COAD,8,Hs_TNF-related_weak_inducer_of_apoptosis_(TWEAK)_signaling_WP2036_20250310 (WikiPathways),pathway,0.3984753645047763,,,,,,,0.0086840397811361,0.7
+PathNoUDP,36,cancer_specific,COAD,9,Non-alcoholic fatty liver disease (NAFLD)(KEGG) (Pathologist.db),pathway,0.3826542411836529,,,,,,,0.0087954735915575,0.7
+PathNoUDP,36,cancer_specific,COAD,10,Hepatitis C(KEGG) (Pathologist.db),pathway,0.3818650793650794,,,,,,,0.0087422117856995,0.7
+PathNoUDP,36,cancer_specific,LUAD,1,Fertilization (Reactome),pathway,0.5021774522124335,,,,,,,0.0085255025058156,0.9
+PathNoUDP,36,cancer_specific,LUAD,2,SMARCA4,mutation,0.4692076658324467,,,,,,,0.0955588325858115,0.5
+PathNoUDP,36,cancer_specific,LUAD,3,SHC1 events in ERBB2 signaling (Reactome),pathway,0.4672952594995948,,,,,,,0.0087440949282608,0.8
+PathNoUDP,36,cancer_specific,LUAD,4,ZNF521,mutation,0.4507385094936234,,,,,,,0.0709920950233935,0.5
+PathNoUDP,36,cancer_specific,LUAD,5,TMB,tmb,0.4472556420251267,,,,,,,0.026370976679027,1.0
+PathNoUDP,36,cancer_specific,LUAD,6,Interaction With Cumulus Cells And The Zona Pellucida (Reactome),pathway,0.445413308619466,,,,,,,0.0081494966935779,0.9
+PathNoUDP,36,cancer_specific,LUAD,7,Hs_Mammary_gland_development:_pregnancy_and_lactation_-_stage_3_of_4_WP2817_20250319 (WikiPathways),pathway,0.4376841037033735,,,,,,,0.0083451943937688,0.8
+PathNoUDP,36,cancer_specific,LUAD,8,Hs_LncRNA-like_NMRK2_in_translocation_renal_cell_carcinoma_WP5519_20251031 (WikiPathways),pathway,0.4013487999015038,,,,,,,0.0087287869703556,0.7
+PathNoUDP,36,cancer_specific,LUAD,9,SHC1 events in ERBB4 signaling (Reactome),pathway,0.3847089825005216,,,,,,,0.0094286546421547,0.6
+PathNoUDP,36,cancer_specific,LUAD,10,Erythropoietin activates RAS (Reactome),pathway,0.3807529046475998,,,,,,,0.0089642026772101,0.6
+PathClin,24,shared,shared,1,ERBB2 Activates PTK6 Signaling (Reactome),pathway,0.1505593803786575,0.0026745774472752,0.0063193018237748,0.0080544310621916,3.0,3.0,4.0,,
+PathClin,24,shared,shared,2,Chemical carcinogenesis(KEGG) (Pathologist.db),pathway,0.1470017636684303,0.0032899364596232,0.0079134430270642,0.0086544016376137,2.0,2.0,2.0,,
+PathClin,24,shared,shared,3,GRB2 events in ERBB2 signaling (Reactome),pathway,0.1422403901319563,0.0026377102670569,0.0062739128867784,0.0080165996914729,3.0,3.0,4.0,,
+PathClin,24,shared,shared,4,prion pathway(BIOCARTA) (Pathologist.db),pathway,0.1348915989159891,0.0027300613000988,0.0063909688033163,0.0072089539219935,3.0,3.0,3.0,,
+PathClin,24,shared,shared,5,Metabolism of xenobiotics by cytochrome P450(KEGG) (Pathologist.db),pathway,0.1274250440917107,0.003297867020592,0.0077144198585301,0.0084506813436746,2.0,2.0,2.0,,
+PathClin,24,shared,shared,6,Caffeine metabolism(KEGG) (Pathologist.db),pathway,0.1259700176366843,0.0033754616742953,0.0077241051476447,0.0083543569780885,2.0,2.0,2.0,,
+PathClin,24,shared,shared,7,ras-independent pathway in nk cell-mediated cytotoxicity(BIOCARTA) (Pathologist.db),pathway,0.1249698613622664,0.003831002744846,0.0072414535097777,0.008475803459684,2.0,2.0,3.0,,
+PathClin,24,shared,shared,8,Glycosphingolipid transport (Reactome),pathway,0.1205284552845528,0.0036286351969464,0.0073612411506473,0.0084140729159116,2.0,2.0,2.0,,
+PathClin,24,shared,shared,9,FCERI mediated Ca+2 mobilization (Reactome),pathway,0.1156626506024096,0.0038764388300478,0.0100539966952055,0.0094474777579307,2.0,2.0,2.0,,
+PathClin,24,shared,shared,10,Signaling by FLT3 ITD and TKD mutants (Reactome),pathway,0.108964429145152,0.0037228419678285,0.0094117789994924,0.0095567815005779,2.0,2.0,2.0,,
+PathClin,24,cancer_specific,BRCA,1,Cation-coupled Chloride cotransporters (Reactome),pathway,0.6048192771084338,,,,,,,0.0035030949927333,0.7
+PathClin,24,cancer_specific,BRCA,2,BMP receptor signaling(NCI/NATURE) (Pathologist.db),pathway,0.5486503505310442,,,,,,,0.0032449687298919,0.7
+PathClin,24,cancer_specific,BRCA,3,Hyaluronan metabolism (Reactome),pathway,0.4975595762842311,,,,,,,0.0031156731835964,0.7
+PathClin,24,cancer_specific,BRCA,4,Hs_GABA_receptor_signaling_WP4159_20251020 (WikiPathways),pathway,0.4638239368624323,,,,,,,0.0037639739923178,0.5
+PathClin,24,cancer_specific,BRCA,5,RNA Polymerase III Transcription Initiation From Type 2 Promoter (Reactome),pathway,0.4147303499713138,,,,,,,0.0031757139600812,0.5
+PathClin,24,cancer_specific,BRCA,6,Hs_MAPK_cascade_WP422_20250303 (WikiPathways),pathway,0.3915662650602409,,,,,,,0.0031150932773016,0.4
+PathClin,24,cancer_specific,BRCA,7,JNK (c-Jun kinases) phosphorylation and  activation mediated by activated human TAK1 (Reactome),pathway,0.3770626058239928,,,,,,,0.0034224672708659,0.4
+PathClin,24,cancer_specific,BRCA,8,"Plasma lipoprotein assembly, remodeling, and clearance (Reactome)",pathway,0.3677931237143697,,,,,,,0.0031929537653922,0.5
+PathClin,24,cancer_specific,BRCA,9,Formation of HIV elongation complex in the absence of HIV Tat (Reactome),pathway,0.3528483271063347,,,,,,,0.0028587312554008,0.4
+PathClin,24,cancer_specific,BRCA,10,RNA Polymerase III Transcription Initiation From Type 1 Promoter (Reactome),pathway,0.3208548479632817,,,,,,,0.0031684209243393,0.4
+PathClin,24,cancer_specific,COAD,1,Apoptosis - multiple species(KEGG) (Pathologist.db),pathway,0.8358640711126604,,,,,,,0.0081867465283721,1.0
+PathClin,24,cancer_specific,COAD,2,Hs_Neural_crest_cell_migration_during_development_WP4564_20250310 (WikiPathways),pathway,0.8138298220004794,,,,,,,0.0081736360676586,1.0
+PathClin,24,cancer_specific,COAD,3,Non-alcoholic fatty liver disease (NAFLD)(KEGG) (Pathologist.db),pathway,0.7230696747205821,,,,,,,0.0081573617127205,0.9
+PathClin,24,cancer_specific,COAD,4,Epstein-Barr virus infection(KEGG) (Pathologist.db),pathway,0.7128083763625933,,,,,,,0.0081704203556808,0.9
+PathClin,24,cancer_specific,COAD,5,Hs_TNF-related_weak_inducer_of_apoptosis_(TWEAK)_signaling_WP2036_20250310 (WikiPathways),pathway,0.6555391548109255,,,,,,,0.0080917727512617,0.9
+PathClin,24,cancer_specific,COAD,6,Hs_PDGF_pathway_WP2526_20250929 (WikiPathways),pathway,0.6238307661023843,,,,,,,0.0081673754029906,0.8
+PathClin,24,cancer_specific,COAD,7,Hs_Riboflavin_and_CoQ_disorders_WP5037_20250815 (WikiPathways),pathway,0.5877079747561675,,,,,,,0.0074559380965572,0.7
+PathClin,24,cancer_specific,COAD,8,caspase cascade in apoptosis(BIOCARTA) (Pathologist.db),pathway,0.5606138841078601,,,,,,,0.0078928056173026,0.6
+PathClin,24,cancer_specific,COAD,9,Chagas disease (American trypanosomiasis)(KEGG) (Pathologist.db),pathway,0.5405293869873709,,,,,,,0.0075196478865108,0.8
+PathClin,24,cancer_specific,COAD,10,ctl mediated immune response against target cells(BIOCARTA) (Pathologist.db),pathway,0.5151103509880389,,,,,,,0.0076635569178809,0.6
+PathClin,24,cancer_specific,LUAD,1,Hs_Mammary_gland_development:_pregnancy_and_lactation_-_stage_3_of_4_WP2817_20250319 (WikiPathways),pathway,0.5583791612442803,,,,,,,0.009559825594936,0.7
+PathClin,24,cancer_specific,LUAD,2,wnt signaling pathway(BIOCARTA) (Pathologist.db),pathway,0.5455315389833951,,,,,,,0.0108530892369647,0.6
+PathClin,24,cancer_specific,LUAD,3,actions of nitric oxide in the heart(BIOCARTA) (Pathologist.db),pathway,0.5255226480836237,,,,,,,0.0095499792757133,0.6
+PathClin,24,cancer_specific,LUAD,4,segmentation clock(BIOCARTA) (Pathologist.db),pathway,0.4807498285826232,,,,,,,0.0107568545887867,0.6
+PathClin,24,cancer_specific,LUAD,5,Erythropoietin activates RAS (Reactome),pathway,0.4771045726330279,,,,,,,0.0087553593330085,0.5
+PathClin,24,cancer_specific,LUAD,6,SHC1 events in ERBB2 signaling (Reactome),pathway,0.4531673733260568,,,,,,,0.0085086236707865,0.5
+PathClin,24,cancer_specific,LUAD,7,Hs_Galanin_receptor_pathway_WP4970_20250309 (WikiPathways),pathway,0.4169024530176455,,,,,,,0.0103876866400241,0.5
+PathClin,24,cancer_specific,LUAD,8,Mitochondrial unfolded protein response (UPRmt) (Reactome),pathway,0.381186819804706,,,,,,,0.0093362157233058,0.5
+PathClin,24,cancer_specific,LUAD,9,Deposition of new CENPA-containing nucleosomes at the centromere (Reactome),pathway,0.3649646333430249,,,,,,,0.0099210788030177,0.4
+PathClin,24,cancer_specific,LUAD,10,SHC1 events in ERBB4 signaling (Reactome),pathway,0.3625553834903428,,,,,,,0.0093920182747145,0.6
