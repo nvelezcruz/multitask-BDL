@@ -1,0 +1,184 @@
+configuration,section,variable,level,statistic,value,unit
+Pathway + clinical,overall,Patients,all,n,1681,patients
+Pathway + clinical,overall,Unique patients,all,n,1681,patients
+Pathway + clinical,overall,Age,all,mean,61.851228510782626,years
+Pathway + clinical,overall,Age,all,sd,12.82728805675007,years
+Pathway + clinical,overall,PFI time,all,median,22.50513347022587,months
+Pathway + clinical,overall,PFI time,all,q1,13.535934291581109,months
+Pathway + clinical,overall,PFI time,all,q3,40.936344969199176,months
+Pathway + clinical,category,Cancer type,Breast,n,895,patients
+Pathway + clinical,category,Cancer type,Breast,percent,53.24211778703153,percent
+Pathway + clinical,category,Cancer type,Colon,n,384,patients
+Pathway + clinical,category,Cancer type,Colon,percent,22.84354550862582,percent
+Pathway + clinical,category,Cancer type,Lung,n,402,patients
+Pathway + clinical,category,Cancer type,Lung,percent,23.914336704342652,percent
+Pathway + clinical,category,Sex,Female,n,1282,patients
+Pathway + clinical,category,Sex,Female,percent,76.26412849494349,percent
+Pathway + clinical,category,Sex,Male,n,399,patients
+Pathway + clinical,category,Sex,Male,percent,23.735871505056515,percent
+Pathway + clinical,category,Sex,Unknown/not reported,n,0,patients
+Pathway + clinical,category,Sex,Unknown/not reported,percent,0.0,percent
+Pathway + clinical,category,Race,White,n,1130,patients
+Pathway + clinical,category,Race,White,percent,67.22189173111244,percent
+Pathway + clinical,category,Race,Black or African American,n,258,patients
+Pathway + clinical,category,Race,Black or African American,percent,15.348007138607972,percent
+Pathway + clinical,category,Race,Asian,n,54,patients
+Pathway + clinical,category,Race,Asian,percent,3.2123735871505055,percent
+Pathway + clinical,category,Race,American Indian or Alaska Native,n,2,patients
+Pathway + clinical,category,Race,American Indian or Alaska Native,percent,0.1189767995240928,percent
+Pathway + clinical,category,Race,Native Hawaiian or Pacific Islander,n,0,patients
+Pathway + clinical,category,Race,Native Hawaiian or Pacific Islander,percent,0.0,percent
+Pathway + clinical,category,Race,Other,n,0,patients
+Pathway + clinical,category,Race,Other,percent,0.0,percent
+Pathway + clinical,category,Race,Unknown/not reported,n,237,patients
+Pathway + clinical,category,Race,Unknown/not reported,percent,14.098750743604997,percent
+Pathway + clinical,category,AJCC pathologic stage,Stage 0,n,0,patients
+Pathway + clinical,category,AJCC pathologic stage,Stage 0,percent,0.0,percent
+Pathway + clinical,category,AJCC pathologic stage,Stage I,n,422,patients
+Pathway + clinical,category,AJCC pathologic stage,Stage I,percent,25.10410469958358,percent
+Pathway + clinical,category,AJCC pathologic stage,Stage II,n,743,patients
+Pathway + clinical,category,AJCC pathologic stage,Stage II,percent,44.199881023200476,percent
+Pathway + clinical,category,AJCC pathologic stage,Stage III,n,388,patients
+Pathway + clinical,category,AJCC pathologic stage,Stage III,percent,23.081499107674002,percent
+Pathway + clinical,category,AJCC pathologic stage,Stage IV,n,93,patients
+Pathway + clinical,category,AJCC pathologic stage,Stage IV,percent,5.532421177870315,percent
+Pathway + clinical,category,AJCC pathologic stage,Unknown/not reported,n,35,patients
+Pathway + clinical,category,AJCC pathologic stage,Unknown/not reported,percent,2.082093991671624,percent
+Pathway + clinical,category,PFI status,1.0,n,387,patients
+Pathway + clinical,category,PFI status,1.0,percent,23.022010707911956,percent
+Pathway + clinical,category,PFI status,0.0,n,1294,patients
+Pathway + clinical,category,PFI status,0.0,percent,76.97798929208804,percent
+Pathway + clinical,category,Treatment,TX_CHEMO,n,897,patients
+Pathway + clinical,category,Treatment,TX_CHEMO,percent,53.36109458655562,percent
+Pathway + clinical,category,Treatment,TX_HORMONE,n,522,patients
+Pathway + clinical,category,Treatment,TX_HORMONE,percent,31.052944675788222,percent
+Pathway + clinical,category,Treatment,TX_RADIATION,n,747,patients
+Pathway + clinical,category,Treatment,TX_RADIATION,percent,44.43783462224866,percent
+Pathway + clinical,category,Treatment,TX_PHARMACEUTICAL,n,346,patients
+Pathway + clinical,category,Treatment,TX_PHARMACEUTICAL,percent,20.582986317668055,percent
+Pathway + clinical,category,Treatment,TX_EXPLICIT_NO_TREATMENT,n,364,patients
+Pathway + clinical,category,Treatment,TX_EXPLICIT_NO_TREATMENT,percent,21.653777513384888,percent
+Pathway + mutation/TMB,overall,Patients,all,n,1530,patients
+Pathway + mutation/TMB,overall,Unique patients,all,n,1530,patients
+Pathway + mutation/TMB,overall,Age,all,mean,61.90819789471801,years
+Pathway + mutation/TMB,overall,Age,all,sd,12.72797567474818,years
+Pathway + mutation/TMB,overall,PFI time,all,median,22.078028747433265,months
+Pathway + mutation/TMB,overall,PFI time,all,q1,13.478439425051334,months
+Pathway + mutation/TMB,overall,PFI time,all,q3,40.53388090349076,months
+Pathway + mutation/TMB,overall,TMB,all,median,1.65789473684211,mutations per Mb
+Pathway + mutation/TMB,overall,TMB,all,q1,0.763157894736842,mutations per Mb
+Pathway + mutation/TMB,overall,TMB,all,q3,3.3421052631579,mutations per Mb
+Pathway + mutation/TMB,category,Cancer type,Breast,n,778,patients
+Pathway + mutation/TMB,category,Cancer type,Breast,percent,50.849673202614376,percent
+Pathway + mutation/TMB,category,Cancer type,Colon,n,358,patients
+Pathway + mutation/TMB,category,Cancer type,Colon,percent,23.398692810457515,percent
+Pathway + mutation/TMB,category,Cancer type,Lung,n,394,patients
+Pathway + mutation/TMB,category,Cancer type,Lung,percent,25.751633986928105,percent
+Pathway + mutation/TMB,category,Sex,Female,n,1155,patients
+Pathway + mutation/TMB,category,Sex,Female,percent,75.49019607843137,percent
+Pathway + mutation/TMB,category,Sex,Male,n,375,patients
+Pathway + mutation/TMB,category,Sex,Male,percent,24.50980392156863,percent
+Pathway + mutation/TMB,category,Sex,Unknown/not reported,n,0,patients
+Pathway + mutation/TMB,category,Sex,Unknown/not reported,percent,0.0,percent
+Pathway + mutation/TMB,category,Race,White,n,1039,patients
+Pathway + mutation/TMB,category,Race,White,percent,67.90849673202614,percent
+Pathway + mutation/TMB,category,Race,Black or African American,n,232,patients
+Pathway + mutation/TMB,category,Race,Black or African American,percent,15.163398692810457,percent
+Pathway + mutation/TMB,category,Race,Asian,n,50,patients
+Pathway + mutation/TMB,category,Race,Asian,percent,3.2679738562091503,percent
+Pathway + mutation/TMB,category,Race,American Indian or Alaska Native,n,2,patients
+Pathway + mutation/TMB,category,Race,American Indian or Alaska Native,percent,0.13071895424836602,percent
+Pathway + mutation/TMB,category,Race,Native Hawaiian or Pacific Islander,n,0,patients
+Pathway + mutation/TMB,category,Race,Native Hawaiian or Pacific Islander,percent,0.0,percent
+Pathway + mutation/TMB,category,Race,Other,n,0,patients
+Pathway + mutation/TMB,category,Race,Other,percent,0.0,percent
+Pathway + mutation/TMB,category,Race,Unknown/not reported,n,207,patients
+Pathway + mutation/TMB,category,Race,Unknown/not reported,percent,13.529411764705882,percent
+Pathway + mutation/TMB,category,AJCC pathologic stage,Stage 0,n,0,patients
+Pathway + mutation/TMB,category,AJCC pathologic stage,Stage 0,percent,0.0,percent
+Pathway + mutation/TMB,category,AJCC pathologic stage,Stage I,n,398,patients
+Pathway + mutation/TMB,category,AJCC pathologic stage,Stage I,percent,26.013071895424837,percent
+Pathway + mutation/TMB,category,AJCC pathologic stage,Stage II,n,669,patients
+Pathway + mutation/TMB,category,AJCC pathologic stage,Stage II,percent,43.72549019607843,percent
+Pathway + mutation/TMB,category,AJCC pathologic stage,Stage III,n,339,patients
+Pathway + mutation/TMB,category,AJCC pathologic stage,Stage III,percent,22.15686274509804,percent
+Pathway + mutation/TMB,category,AJCC pathologic stage,Stage IV,n,91,patients
+Pathway + mutation/TMB,category,AJCC pathologic stage,Stage IV,percent,5.947712418300654,percent
+Pathway + mutation/TMB,category,AJCC pathologic stage,Unknown/not reported,n,33,patients
+Pathway + mutation/TMB,category,AJCC pathologic stage,Unknown/not reported,percent,2.156862745098039,percent
+Pathway + mutation/TMB,category,PFI status,1.0,n,358,patients
+Pathway + mutation/TMB,category,PFI status,1.0,percent,23.398692810457515,percent
+Pathway + mutation/TMB,category,PFI status,0.0,n,1172,patients
+Pathway + mutation/TMB,category,PFI status,0.0,percent,76.60130718954248,percent
+Pathway + mutation/TMB,category,Treatment,TX_CHEMO,n,805,patients
+Pathway + mutation/TMB,category,Treatment,TX_CHEMO,percent,52.61437908496732,percent
+Pathway + mutation/TMB,category,Treatment,TX_HORMONE,n,446,patients
+Pathway + mutation/TMB,category,Treatment,TX_HORMONE,percent,29.15032679738562,percent
+Pathway + mutation/TMB,category,Treatment,TX_RADIATION,n,661,patients
+Pathway + mutation/TMB,category,Treatment,TX_RADIATION,percent,43.20261437908497,percent
+Pathway + mutation/TMB,category,Treatment,TX_PHARMACEUTICAL,n,310,patients
+Pathway + mutation/TMB,category,Treatment,TX_PHARMACEUTICAL,percent,20.26143790849673,percent
+Pathway + mutation/TMB,category,Treatment,TX_EXPLICIT_NO_TREATMENT,n,349,patients
+Pathway + mutation/TMB,category,Treatment,TX_EXPLICIT_NO_TREATMENT,percent,22.81045751633987,percent
+Pathway + UDP + mutation/TMB,overall,Patients,all,n,1530,patients
+Pathway + UDP + mutation/TMB,overall,Unique patients,all,n,1530,patients
+Pathway + UDP + mutation/TMB,overall,Age,all,mean,61.90819789471801,years
+Pathway + UDP + mutation/TMB,overall,Age,all,sd,12.72797567474818,years
+Pathway + UDP + mutation/TMB,overall,PFI time,all,median,22.078028747433265,months
+Pathway + UDP + mutation/TMB,overall,PFI time,all,q1,13.478439425051334,months
+Pathway + UDP + mutation/TMB,overall,PFI time,all,q3,40.53388090349076,months
+Pathway + UDP + mutation/TMB,overall,TMB,all,median,1.65789473684211,mutations per Mb
+Pathway + UDP + mutation/TMB,overall,TMB,all,q1,0.763157894736842,mutations per Mb
+Pathway + UDP + mutation/TMB,overall,TMB,all,q3,3.3421052631579,mutations per Mb
+Pathway + UDP + mutation/TMB,category,Cancer type,Breast,n,778,patients
+Pathway + UDP + mutation/TMB,category,Cancer type,Breast,percent,50.849673202614376,percent
+Pathway + UDP + mutation/TMB,category,Cancer type,Colon,n,358,patients
+Pathway + UDP + mutation/TMB,category,Cancer type,Colon,percent,23.398692810457515,percent
+Pathway + UDP + mutation/TMB,category,Cancer type,Lung,n,394,patients
+Pathway + UDP + mutation/TMB,category,Cancer type,Lung,percent,25.751633986928105,percent
+Pathway + UDP + mutation/TMB,category,Sex,Female,n,1155,patients
+Pathway + UDP + mutation/TMB,category,Sex,Female,percent,75.49019607843137,percent
+Pathway + UDP + mutation/TMB,category,Sex,Male,n,375,patients
+Pathway + UDP + mutation/TMB,category,Sex,Male,percent,24.50980392156863,percent
+Pathway + UDP + mutation/TMB,category,Sex,Unknown/not reported,n,0,patients
+Pathway + UDP + mutation/TMB,category,Sex,Unknown/not reported,percent,0.0,percent
+Pathway + UDP + mutation/TMB,category,Race,White,n,1039,patients
+Pathway + UDP + mutation/TMB,category,Race,White,percent,67.90849673202614,percent
+Pathway + UDP + mutation/TMB,category,Race,Black or African American,n,232,patients
+Pathway + UDP + mutation/TMB,category,Race,Black or African American,percent,15.163398692810457,percent
+Pathway + UDP + mutation/TMB,category,Race,Asian,n,50,patients
+Pathway + UDP + mutation/TMB,category,Race,Asian,percent,3.2679738562091503,percent
+Pathway + UDP + mutation/TMB,category,Race,American Indian or Alaska Native,n,2,patients
+Pathway + UDP + mutation/TMB,category,Race,American Indian or Alaska Native,percent,0.13071895424836602,percent
+Pathway + UDP + mutation/TMB,category,Race,Native Hawaiian or Pacific Islander,n,0,patients
+Pathway + UDP + mutation/TMB,category,Race,Native Hawaiian or Pacific Islander,percent,0.0,percent
+Pathway + UDP + mutation/TMB,category,Race,Other,n,0,patients
+Pathway + UDP + mutation/TMB,category,Race,Other,percent,0.0,percent
+Pathway + UDP + mutation/TMB,category,Race,Unknown/not reported,n,207,patients
+Pathway + UDP + mutation/TMB,category,Race,Unknown/not reported,percent,13.529411764705882,percent
+Pathway + UDP + mutation/TMB,category,AJCC pathologic stage,Stage 0,n,0,patients
+Pathway + UDP + mutation/TMB,category,AJCC pathologic stage,Stage 0,percent,0.0,percent
+Pathway + UDP + mutation/TMB,category,AJCC pathologic stage,Stage I,n,398,patients
+Pathway + UDP + mutation/TMB,category,AJCC pathologic stage,Stage I,percent,26.013071895424837,percent
+Pathway + UDP + mutation/TMB,category,AJCC pathologic stage,Stage II,n,669,patients
+Pathway + UDP + mutation/TMB,category,AJCC pathologic stage,Stage II,percent,43.72549019607843,percent
+Pathway + UDP + mutation/TMB,category,AJCC pathologic stage,Stage III,n,339,patients
+Pathway + UDP + mutation/TMB,category,AJCC pathologic stage,Stage III,percent,22.15686274509804,percent
+Pathway + UDP + mutation/TMB,category,AJCC pathologic stage,Stage IV,n,91,patients
+Pathway + UDP + mutation/TMB,category,AJCC pathologic stage,Stage IV,percent,5.947712418300654,percent
+Pathway + UDP + mutation/TMB,category,AJCC pathologic stage,Unknown/not reported,n,33,patients
+Pathway + UDP + mutation/TMB,category,AJCC pathologic stage,Unknown/not reported,percent,2.156862745098039,percent
+Pathway + UDP + mutation/TMB,category,PFI status,1.0,n,358,patients
+Pathway + UDP + mutation/TMB,category,PFI status,1.0,percent,23.398692810457515,percent
+Pathway + UDP + mutation/TMB,category,PFI status,0.0,n,1172,patients
+Pathway + UDP + mutation/TMB,category,PFI status,0.0,percent,76.60130718954248,percent
+Pathway + UDP + mutation/TMB,category,Treatment,TX_CHEMO,n,805,patients
+Pathway + UDP + mutation/TMB,category,Treatment,TX_CHEMO,percent,52.61437908496732,percent
+Pathway + UDP + mutation/TMB,category,Treatment,TX_HORMONE,n,446,patients
+Pathway + UDP + mutation/TMB,category,Treatment,TX_HORMONE,percent,29.15032679738562,percent
+Pathway + UDP + mutation/TMB,category,Treatment,TX_RADIATION,n,661,patients
+Pathway + UDP + mutation/TMB,category,Treatment,TX_RADIATION,percent,43.20261437908497,percent
+Pathway + UDP + mutation/TMB,category,Treatment,TX_PHARMACEUTICAL,n,310,patients
+Pathway + UDP + mutation/TMB,category,Treatment,TX_PHARMACEUTICAL,percent,20.26143790849673,percent
+Pathway + UDP + mutation/TMB,category,Treatment,TX_EXPLICIT_NO_TREATMENT,n,349,patients
+Pathway + UDP + mutation/TMB,category,Treatment,TX_EXPLICIT_NO_TREATMENT,percent,22.81045751633987,percent
